@@ -23,7 +23,6 @@ js <- rbind(trs, tes) # subject Number
 
 #merged data set
 ds <- (js,jl,jd)
-
 #------------------------------------------------------------------------------------
 #Step2: Extracts only the measurements on the mean and standard deviation for each measurement.
 ftrs <- read.table("./srcdata/features.txt") #561 rows
